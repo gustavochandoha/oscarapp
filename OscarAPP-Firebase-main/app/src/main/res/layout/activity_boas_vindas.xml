@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.BoasVindasActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="360dp"
+        android:layout_height="596dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/oscar_image" />
+
+
+    <TextView
+        android:id="@+id/txtToken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="72dp"
+        android:text="Token:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="76dp"
+        android:text="Oscar"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/FloatingMenu"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu_backgroundColor="@android:color/transparent"
+        app:menu_fab_label=""
+        app:menu_openDirection="up"
+        app:menu_showShadow="true">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/FloatingBtn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btn_votar_filme"
+            android:src="@drawable/estrela_vazia"
+            app:fab_label="Votar Filme"
+            app:fab_size="mini"
+            tools:layout_editor_absoluteX="128dp"
+            tools:layout_editor_absoluteY="8dp" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/FloatingBtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btn_votar_diretor"
+            android:src="@drawable/estrela_cheia"
+            app:fab_label="Votar Diretor"
+            app:fab_size="mini"
+            tools:layout_editor_absoluteX="128dp"
+            tools:layout_editor_absoluteY="63dp" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/FloatingBtn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btn_confirmar_voto"
+            android:src="@drawable/save"
+            app:fab_label="Confirmar Voto"
+            app:fab_size="mini"
+            tools:layout_editor_absoluteX="128dp"
+            tools:layout_editor_absoluteY="117dp" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/FloatingBtn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btn_sair"
+            android:src="@drawable/exit"
+            app:fab_label="Sair"
+            app:fab_size="mini"
+            tools:layout_editor_absoluteX="128dp"
+            tools:layout_editor_absoluteY="171dp" />
+
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+    <TextView
+        android:id="@+id/intToken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtToken" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

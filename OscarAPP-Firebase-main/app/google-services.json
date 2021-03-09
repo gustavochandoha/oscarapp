@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "456047429399",
+    "project_id": "oscarapp-cba97",
+    "storage_bucket": "oscarapp-cba97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456047429399:android:e6e78bf3b5b72c0a3e9952",
+        "android_client_info": {
+          "package_name": "com.example.oscarapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456047429399-egrr14u93ak61bmeac2rp5toellp5amh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.oscarapp",
+            "certificate_hash": "5b3abf4a84e2b8e4123fc4d8d50d1d5d016a3125"
+          }
+        },
+        {
+          "client_id": "456047429399-muqet29okid8ilise2nlhm2s74aak26t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwsaHaAv1IbU26Pbqgv7pSgPQ5TR6QXbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456047429399-muqet29okid8ilise2nlhm2s74aak26t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
